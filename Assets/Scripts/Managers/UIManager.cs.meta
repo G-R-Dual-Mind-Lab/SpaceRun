@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ea3b74541e17ccd4f9f17490aecd3af0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - mainMenuCanvasPrefab: {fileID: 7123250779691154916, guid: ab2c0b93d06ba0c4ca20b82fccff97d8, type: 3}
+  - resumeCanvasPrefab: {fileID: 8139675664534693773, guid: d19937b9a613acf43820752689bba9fe, type: 3}
+  - pauseCanvasPrefab: {fileID: 5993015394906311154, guid: 12dc58961fa211646af6dedaad85138b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

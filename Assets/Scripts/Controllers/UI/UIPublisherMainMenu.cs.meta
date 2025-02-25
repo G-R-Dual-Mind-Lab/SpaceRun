@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6b64ae1cf80ff614cb21811fc5b47558
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - uiEventChannel: {fileID: 11400000, guid: 07a37e254bd513247ac3c26f8de6ebf2, type: 2}
+  - settingsDataEventChannel: {fileID: 11400000, guid: 54ce1a36d4a9786478a55f22bfdcf839, type: 2}
+  - musicSlider: {instanceID: 0}
+  - tutorialButton: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

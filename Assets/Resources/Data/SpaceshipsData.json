@@ -1,0 +1,22 @@
+{
+  "spaceShipsDataList": [
+    { "name": "Nova Sentinel", "maxSpeed": 200, "acceleration": 1 },
+    { "name": "Shadow Phantom", "maxSpeed": 205, "acceleration": 1.1 },
+    { "name": "Quantum Hawk", "maxSpeed": 220, "acceleration": 1.2 },
+    { "name": "Green Fury", "maxSpeed": 240, "acceleration": 1.3 },
+    { "name": "Nebula X", "maxSpeed": 250, "acceleration": 1.5 },
+    { "name": "Electric Warden", "maxSpeed": 235, "acceleration": 1.2 },
+    { "name": "Eclipse Striker", "maxSpeed": 230, "acceleration": 1.3 },
+    { "name": "Hyperion Nova", "maxSpeed": 230, "acceleration": 1.4 },
+    { "name": "Zenith Drifter", "maxSpeed": 200, "acceleration": 1.1 },
+    { "name": "Vortex Specter", "maxSpeed": 235, "acceleration": 1.4 },
+    { "name": "Galactic Crusader", "maxSpeed": 240, "acceleration": 1.1 },
+    { "name": "Stellar Phantom", "maxSpeed": 205, "acceleration": 1.2 },
+    { "name": "Void Raptor", "maxSpeed": 210, "acceleration": 1.1 },
+    { "name": "Cosmic Falcon", "maxSpeed": 220, "acceleration": 1.1 },
+    { "name": "Nebular Storm", "maxSpeed": 200, "acceleration": 1.4 },
+    { "name": "Titan Voyager", "maxSpeed": 240, "acceleration": 1.4 },
+    { "name": "Lunar Specter", "maxSpeed": 210, "acceleration": 1.3 },
+    { "name": "Galactic Hawk", "maxSpeed": 210, "acceleration": 1.0 }
+  ]
+}

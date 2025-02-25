@@ -1,0 +1,20 @@
+{
+  "channels": [
+    {
+      "channelName": "NeonNebula",
+      "trackNames": ["Track1", "Track2", "Track3"]
+    },
+    {
+      "channelName": "RadioMarte",
+      "trackNames": ["Track1", "Track2", "Track3"]
+    },
+    {
+      "channelName": "SpaceFM80",
+      "trackNames": ["Track1", "Track2", "Track3", "Track4"]
+    },
+    {
+      "channelName": "Spazio24",
+      "trackNames": ["Track1"]
+    }
+  ]
+}

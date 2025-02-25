@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{6BCFD9D4-4E21-EA89-E38C-126B6146FCBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXRRuntime", "CFXRRuntime.csproj", "{B3D29ABB-B832-5DDD-8642-F76C8EAA4485}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXREditor", "CFXREditor.csproj", "{70E2A652-ED1D-A47E-60BC-4841EC47E2FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BCFD9D4-4E21-EA89-E38C-126B6146FCBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BCFD9D4-4E21-EA89-E38C-126B6146FCBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BCFD9D4-4E21-EA89-E38C-126B6146FCBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BCFD9D4-4E21-EA89-E38C-126B6146FCBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3D29ABB-B832-5DDD-8642-F76C8EAA4485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3D29ABB-B832-5DDD-8642-F76C8EAA4485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3D29ABB-B832-5DDD-8642-F76C8EAA4485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3D29ABB-B832-5DDD-8642-F76C8EAA4485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70E2A652-ED1D-A47E-60BC-4841EC47E2FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70E2A652-ED1D-A47E-60BC-4841EC47E2FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70E2A652-ED1D-A47E-60BC-4841EC47E2FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70E2A652-ED1D-A47E-60BC-4841EC47E2FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

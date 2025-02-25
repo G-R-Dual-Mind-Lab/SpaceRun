@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 46fc769eac571fb478b6dfc2f0922110
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - spaceshipData: {fileID: 11400000, guid: eeb64eb0a831ba24a8c260a10c2c7cea, type: 2}
+  - shipDeathEventChannel: {fileID: 11400000, guid: 5d10b591de9b400499556ac2446d65ba, type: 2}
+  - shipDataEventChannelSO: {fileID: 11400000, guid: e01a1cf8b435fca4a855becbaa263a1a, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

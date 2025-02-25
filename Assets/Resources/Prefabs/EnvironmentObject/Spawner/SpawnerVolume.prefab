@@ -1,0 +1,280 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &111060591581278371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7008951694324625117}
+  - component: {fileID: 126346957714546000}
+  - component: {fileID: 4208131315790817589}
+  - component: {fileID: 5931323911789080811}
+  - component: {fileID: 1283672878350411680}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Plane
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7008951694324625117
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111060591581278371}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -2500, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 8890515182468654575}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &126346957714546000
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111060591581278371}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &4208131315790817589
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111060591581278371}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 978bbcf5050244f1b95128c04103f628, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5931323911789080811
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111060591581278371}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1283672878350411680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111060591581278371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2819d1d83e6e56b4388d4df742adca10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particleSystemDetritus: {fileID: 0}
+  particleSystemElectric: {fileID: 0}
+  environmentTranslationSpeed: 1000
+  scaleFactorTranslation: 1.5
+--- !u!1 &9188092863986824956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8890515182468654575}
+  - component: {fileID: 3703282229652600983}
+  - component: {fileID: 6469327514004377683}
+  m_Layer: 0
+  m_Name: SpawnerVolume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8890515182468654575
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9188092863986824956}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7008951694324625117}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3703282229652600983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9188092863986824956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16eaac777e029d84da517b4e6e903432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  planetPrefabs:
+  - prefab: {fileID: 3299816298287653726, guid: 5ab4439db0483644dbee3900071ca987, type: 3}
+    percentage: 10
+    minSelfRotationSpeed: 2
+    maxSelfRotationSpeed: 3
+  - prefab: {fileID: 7382381177398366059, guid: 7c5627ed2acd2e6428f1c9ea4f9b916c, type: 3}
+    percentage: 5
+    minSelfRotationSpeed: 2
+    maxSelfRotationSpeed: 3
+  - prefab: {fileID: 6909502032742179515, guid: 89e0c77eb999dfd4c8ad4f60527af915, type: 3}
+    percentage: 10
+    minSelfRotationSpeed: 2
+    maxSelfRotationSpeed: 3
+  - prefab: {fileID: 4271725853015633976, guid: 2119d2e336de3e440ab1e3c28c6233e7, type: 3}
+    percentage: 10
+    minSelfRotationSpeed: 2
+    maxSelfRotationSpeed: 3
+  - prefab: {fileID: 2966611403992861571, guid: 301d7d9c978a9714e94fa36d38caf529, type: 3}
+    percentage: 10
+    minSelfRotationSpeed: 2
+    maxSelfRotationSpeed: 3
+  - prefab: {fileID: 8089661157197039393, guid: 53fc3cb80684e8743ac08d0033a0e422, type: 3}
+    percentage: 3
+    minSelfRotationSpeed: 2
+    maxSelfRotationSpeed: 3
+  - prefab: {fileID: 1408581670749804, guid: 9e62395a045c5c447be7835c2d63f786, type: 3}
+    percentage: 10
+    minSelfRotationSpeed: 2
+    maxSelfRotationSpeed: 3
+  - prefab: {fileID: 7490892337936505644, guid: f20e1b698f46036469c3b911f30e772c, type: 3}
+    percentage: 2
+    minSelfRotationSpeed: 2
+    maxSelfRotationSpeed: 3
+  - prefab: {fileID: 1288793558353234, guid: 52ed2648687fd124e9d95bb400574a3b, type: 3}
+    percentage: 10
+    minSelfRotationSpeed: 2
+    maxSelfRotationSpeed: 3
+  - prefab: {fileID: 1856687845478954, guid: 4ff94290c1c604a4e8c4e2dc7382a4b2, type: 3}
+    percentage: 15
+    minSelfRotationSpeed: 2
+    maxSelfRotationSpeed: 3
+  - prefab: {fileID: 1647581975099426, guid: c7e9fb147d1678b4bb0bcb4f3d45f71c, type: 3}
+    percentage: 15
+    minSelfRotationSpeed: 2
+    maxSelfRotationSpeed: 3
+  asteroidPrefabs:
+  - prefab: {fileID: 8022500574915262991, guid: 37982229d548b5841ab51409788b7163, type: 3}
+    percentage: 50
+    minSelfRotationSpeed: 10
+    maxSelfRotationSpeed: 50
+  - prefab: {fileID: 3718172246756643269, guid: 6e0b5dc62700f624eacd51d9b23d65cf, type: 3}
+    percentage: 50
+    minSelfRotationSpeed: 10
+    maxSelfRotationSpeed: 50
+  shipwreckPrefabs:
+  - prefab: {fileID: 882163373099331284, guid: 3ea60d953f95b264e95cf98079a937e9, type: 3}
+    percentage: 30
+    minSelfRotationSpeed: 10
+    maxSelfRotationSpeed: 50
+  - prefab: {fileID: 7905421284329620494, guid: aafb3207a75086c46a64ba03a09b93d1, type: 3}
+    percentage: 40
+    minSelfRotationSpeed: 10
+    maxSelfRotationSpeed: 50
+  - prefab: {fileID: 7291481953122274870, guid: 3e30810e6c6657b4aad360de9e921c0c, type: 3}
+    percentage: 30
+    minSelfRotationSpeed: 10
+    maxSelfRotationSpeed: 50
+  satellitePrefabs:
+  - prefab: {fileID: 1412742708598286, guid: acebee616c487924f8088ab43cb4c4ab, type: 3}
+    percentage: 100
+    minSelfRotationSpeed: 10
+    maxSelfRotationSpeed: 50
+  minePrefabs:
+  - prefab: {fileID: 1041803199959140, guid: ca86a7310ca1fd94d8a95d1a964073d5, type: 3}
+    percentage: 100
+    minSelfRotationSpeed: 10
+    maxSelfRotationSpeed: 50
+  numberOfPlanets: 150
+  numberOfAsteroids: 100
+  numberOfShipwrecks: 50
+  numberOfSatellites: 50
+  numberOfMines: 50
+  collectionCheck: 1
+  defaultCapacity: 0
+  maxSize: 0
+--- !u!114 &6469327514004377683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9188092863986824956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8d75dbfb6b6e74ca00020c97439d12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missilePrefab: {fileID: 286335875193808848, guid: 450c710653014694cb9c6e045c9ce9d5, type: 3}
+  boostPrefab: {fileID: 8838438652182570833, guid: 402de750efa471b40b450d62af727241, type: 3}
+  gameStateEventChannel: {fileID: 11400000, guid: 6eaa5559a632c27438b38f056a50f945, type: 2}
+  bonusSpawningProbability: 1
+  offsetBonusSpawningPosition: 108
+  defaultCapacityMissilePool: 10
+  maxSizeMissilePool: 10
+  defaultCapacityBoostPool: 10
+  maxSizeBoostPool: 10

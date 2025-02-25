@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 65884e2f5e71c3c4f9c9fafe6fca027f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - shipProperties: {fileID: 11400000, guid: cec2a21ff4b3b0b4398aebe541f21e96, type: 2}
+  - gameStateEventChannel: {fileID: 11400000, guid: 6eaa5559a632c27438b38f056a50f945, type: 2}
+  - playerTransformEventChannel: {fileID: 11400000, guid: 3ce04e91e8a62e0429134c19cf7c781b, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
