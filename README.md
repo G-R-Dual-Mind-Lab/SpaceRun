@@ -14,10 +14,10 @@ https://gabriele-ciccotelli.itch.io/grdualmindlab-spacerun
 
 ### 🏗 Software Architecture & Patterns
 - **Factory & Singleton** – Used for creating and managing **managers**:
-  ![FactorySingletonScreenshot](images/FactorySingletonDiagram.png)
+  ![FactorySingletonScreenshot](https://github.com/G-R-Dual-Mind-Lab/SpaceRun/blob/main/images/FactorySingletonDiagram.png)
 - **Observer Pattern** – Implements event-driven communication via **Scriptable Objects**, ensuring decoupled event management:
-  ![FactorySingletonScreenshot](images/EventChannelsViaScriptableObjects.png)
+  ![FactorySingletonScreenshot](https://github.com/G-R-Dual-Mind-Lab/SpaceRun/blob/main/images/EventChannelsViaScriptableObjects.png)
 - **State Pattern** – Manages both **game states** (e.g., running, paused, game over) and **player states**:
-  ![FactorySingletonScreenshot](images/StatesPattern.png)
+  ![FactorySingletonScreenshot](https://github.com/G-R-Dual-Mind-Lab/SpaceRun/blob/main/images/StatesPattern.png)
 - **Object Pooling** – Optimized instantiation of **obstacles and power-ups**, reducing performance overhead:
-  ![FactorySingletonScreenshot](images/PoolingPattern.png)
+  ![FactorySingletonScreenshot](https://github.com/G-R-Dual-Mind-Lab/SpaceRun/blob/main/images/PoolingPattern.png)
