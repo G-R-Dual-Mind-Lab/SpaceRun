@@ -1,0 +1,11 @@
+# Ignore everything
+/*
+
+# Do not ignore these folders
+!/Assets/
+!/Packages/
+!/ProjectSettings/
+
+# Do not ignore the .gitignore file
+!/SpaceRun.sln
+!.gitignore
