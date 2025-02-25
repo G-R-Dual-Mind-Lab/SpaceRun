@@ -2,6 +2,9 @@
 
 **Space Run** is an **endless space runner** developed in **Unity**, where players pilot a spaceship through a **wormhole-like tunnel**, dodging obstacles while being pursued by a **black hole**. The goal is to **travel as far as possible**, avoiding collisions with asteroids, satellites, and other celestial debris. The game integrates an **infotainment component**, featuring a **scaled representation of the Solar System**, with planets positioned at **proportional distances** and live scientific facts displayed in the HUD.
 
+You can play the game by downloading it for free at the following link:
+https://gabriele-ciccotelli.itch.io/grdualmindlab-spacerun
+
 ## Technologies & Design Patterns
 
 ### 🎮 Game Development
